@@ -18,7 +18,7 @@ def remove_strawberry(contacts)
   contacts.each do |name, data|
     #binding.pry
     data.each do |data, value|
-      #binding.pry
+      binding.pry
       if value == :favorite_ice_cream_flavors
         binding.pry
         key.delete("strawberry")
